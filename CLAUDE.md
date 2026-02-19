@@ -61,6 +61,7 @@ Root DNS servers
 | AdGuard Home | `skills/adguard.md` | DNS filtering, ad blocking, DNS rewrites, client stats, upstream config |
 | Unbound | `skills/unbound.md` | Recursive resolver, DNSSEC, cache tuning, Unbound config changes |
 | Docker / Portainer | `skills/docker.md` | Container management, stack deploys, restarts, image updates, logs |
+| Nginx Proxy Manager | `skills/nginx.md` | Reverse proxy, SSL certificates, proxy hosts, 502 errors, adding new services behind the proxy |
 
 ### Running Docker Stacks
 
@@ -71,7 +72,7 @@ Root DNS servers
 | `n8n` | n8n | Workflow automation |
 | `bitwarden` | bitwarden-bitwarden-1, bitwarden-db-1 | Password manager (Vaultwarden) |
 | `portainer` | portainer | Docker management UI |
-| `ngnix` | ngnix-app-1, ngnix-db-1 | Nginx Proxy Manager |
+| `ngnix` | ngnix-app-1, ngnix-db-1 | Nginx Proxy Manager (admin: port 82, proxy: 80/443) |
 | `beszel` | beszel, beszel-agent | Server monitoring |
 | `cloudflare-ddns` | cloudflare-ddns | Dynamic DNS updater |
 
