@@ -1,0 +1,21 @@
+# Backups created by the agent before config edits
+*.bak
+*.backup
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+secrets/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Local notes not meant for the repo
+scratch.md
+notes.md
+TODO.md
